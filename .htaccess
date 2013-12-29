@@ -1,0 +1,10 @@
+# php_value magic_quotes 0
+# php_flag magic_quotes off
+# php_value magic_quotes_gpc 0
+# php_flag magic_quotes_gpc off
+# 
+# RewriteEngine On
+# # RewriteRule ^v3([/]*)$ /json/v3/index.php [L]
+# RewriteRule ^/([a-z_]+)([/]*)$ /index.php?controller=$1 [L]
+# # RewriteRule ^v3/([a-z_]+)/([a-z0-9_-]+)([/]*)$ /json/v3/index.php?controller=$1&action=$2 [L]
+# # RewriteRule ^v3/([a-z_]+)/([a-z0-9_-]+)/([a-z0-9_-]+)([/]*)$ /json/v3/index.php?controller=$1&action=$2&id=$3 [L]
