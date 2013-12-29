@@ -1,0 +1,270 @@
+
+
+ New Log entry  date:29.12.13 01:58:25 PM
+Array
+(
+    [res] => 5
+    [error] => 
+    [data] => Array
+        (
+            [product] => 
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:02:37 PM
+Array
+(
+    [res] => 5
+    [error] => 
+    [data] => Array
+        (
+            [product] => 
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:13:24 PM
+Array
+(
+    [res] => 5
+    [error] => 
+    [data] => Array
+        (
+            [product] => 
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:13:46 PM
+Array
+(
+    [res] => 3
+    [error] => 
+    [data] => Array
+        (
+            [product] => Array
+                (
+                    [name] => קוקה קולה זירו
+                    [vegan] => 3
+                    [barcode] => 7290008909860
+                    [company] => קוקה קולה
+                    [isav_approved] => 0
+                    [id] => 10020
+                )
+
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:15:50 PM
+Array
+(
+    [res] => 3
+    [error] => 
+    [data] => Array
+        (
+            [product] => Array
+                (
+                    [name] => קוקה קולה זירו
+                    [vegan] => 3
+                    [barcode] => 7290008909860
+                    [company] => קוקה קולה
+                    [isav_approved] => 0
+                    [id] => 10020
+                )
+
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:17:10 PM
+Array
+(
+    [res] => 1
+    [error] => 
+    [data] => Array
+        (
+            [product] => Array
+                (
+                    [name] => קוקה קולה זירו
+                    [vegan] => 1
+                    [barcode] => 7290008909860
+                    [company] => קוקה קולה
+                    [isav_approved] => 0
+                    [id] => 10020
+                )
+
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:17:33 PM
+Array
+(
+    [res] => 1
+    [error] => 
+    [data] => Array
+        (
+            [product] => Array
+                (
+                    [name] => קוקה קולה זירו
+                    [vegan] => 1
+                    [barcode] => 7290008909860
+                    [company] => קוקה קולה
+                    [isav_approved] => 0
+                    [id] => 10020
+                )
+
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:17:44 PM
+Array
+(
+    [res] => 0
+    [error] => 
+    [data] => Array
+        (
+            [product] => Array
+                (
+                    [name] => קוקה קולה זירו
+                    [vegan] => 0
+                    [barcode] => 7290008909860
+                    [company] => קוקה קולה
+                    [isav_approved] => 0
+                    [id] => 10020
+                )
+
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:18:00 PM
+Array
+(
+    [res] => 0
+    [error] => 
+    [data] => Array
+        (
+            [product] => Array
+                (
+                    [name] => קוקה קולה זירו
+                    [vegan] => 0
+                    [barcode] => 7290008909860
+                    [company] => קוקה קולה
+                    [isav_approved] => 0
+                    [id] => 10020
+                )
+
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:21:48 PM
+Array
+(
+    [res] => 0
+    [error] => 
+    [data] => Array
+        (
+            [product] => Array
+                (
+                    [name] => קוקה קולה זירו
+                    [vegan] => 0
+                    [barcode] => 7290008909860
+                    [company] => קוקה קולה
+                    [isav_approved] => 0
+                    [id] => 10020
+                )
+
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+
+
+
+ New Log entry  date:29.12.13 02:21:59 PM
+Array
+(
+    [res] => 2
+    [error] => 
+    [data] => Array
+        (
+            [product] => Array
+                (
+                    [name] => קוקה קולה זירו
+                    [vegan] => 2
+                    [barcode] => 7290008909860
+                    [company] => קוקה קולה
+                    [isav_approved] => 0
+                    [id] => 10020
+                )
+
+            [alternatives] => Array
+                (
+                )
+
+        )
+
+)
+

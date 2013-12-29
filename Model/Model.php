@@ -126,7 +126,6 @@ class Model {
     private function update($fields, $values) {
         // Set selection data
         $query = "UPDATE " . $this->table . " SET " . self::buildUpdate($fields, $values) . " WHERE " . self::buildSelection($this->indexFields, $this->getIndexValues());
-        logit($query);
         $stmt = App::GetApp()->db->prepare($query);
         $stmt->execute();
         return $stmt->affected_rows;
@@ -134,7 +133,6 @@ class Model {
 
     private function insert($fields, $values) {
         $query = "INSERT INTO `" . $this->table . "` " . $this->buildInsert($fields, $values);
-        logit($query);
         $stmt = App::GetApp()->db->prepare($query);
         $stmt->execute();
         $this->id = $stmt->insert_id;

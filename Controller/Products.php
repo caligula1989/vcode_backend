@@ -40,7 +40,7 @@ class Products extends Controller {
     $response['res'] = $res;
     $response['error'] = "";
     $response['data'] = $productDetails;
-    logit($response);
+    MiscHelper::logit($response);
     return json_encode($response);
   }
   
@@ -69,7 +69,6 @@ class Products extends Controller {
   }
   
   public function listReports(){
-  logit("hi");
     $this->reports = "";
     $reports = ProductReport::GetAll();
     foreach($reports as $report) {
