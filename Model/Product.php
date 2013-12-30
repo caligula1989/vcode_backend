@@ -87,6 +87,7 @@ class Product extends Model {
     $instance->name = $report->name;
     $instance->isavApproved = Products::PRODUCT_VEGANISM_NOT_KNOWN;
     $instance->vegan = $report->vegan;
+    $instance->company = $report->company;
     $instance->barcode = $report->barcode;
     $instance->name = $report->name;
     return $instance;

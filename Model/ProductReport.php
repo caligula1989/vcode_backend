@@ -9,13 +9,15 @@ class ProductReport extends Model {
   const NAME = "name";
   const VEGAN = "vegan";
   const COMMENT = "comment";
+  const COMPANY = "company";
   
   protected $fields = array(
       "id" => false,
       "barcode" => false,
       "name" => false,
       "vegan" => false,
-      "comment" => false
+      "comment" => false,
+      "company" => false
   );
   
   public static function Factory($fields = array(), $values = array()) {
@@ -60,8 +62,8 @@ class ProductReport extends Model {
     if (!$this->isValid()) {
 	Throw new ValidationException($this->error['field'], $this->error['value'], $this->error['validationMethods'], get_class($this));
     }
-    $fields = array(self::ID, self::BARCODE, self::NAME, self::VEGAN, self::COMMENT);
-    $values = array($this->id, $this->barcode, $this->name, $this->vegan, $this->comment);
+    $fields = array(self::ID, self::BARCODE, self::NAME, self::VEGAN, self::COMMENT, self::COMPANY);
+    $values = array($this->id, $this->barcode, $this->name, $this->vegan, $this->comment, $this->company);
     $this->_save($fields, $values);
   }
 
@@ -81,6 +83,7 @@ class ProductReport extends Model {
       $this->name = $details[self::NAME];
       $this->vegan = $details[self::VEGAN];
       $this->comment = $details[self::COMMENT];
+      $this->company = $details[self::COMPANY];
   }
   
   public static function FindByBarcode($barcode){

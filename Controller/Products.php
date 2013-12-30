@@ -51,12 +51,14 @@ class Products extends Controller {
     $name = App::GetApp()->getRouter()->getParam('name');
     $comment = App::GetApp()->getRouter()->getParam('comment');
     $vegan = App::GetApp()->getRouter()->getParam('vegan');
+    $company = App::GetApp()->getRouter()->getParam('company');
 
     $report = ProductReport::Factory();
     $report->barcode = $barcode;
     $report->vegan = $vegan;
     $report->name = $name;
     $report->comment = $comment;
+    $report->company = $company;
     try {
       $report->save();
       $response['res'] = 1;
@@ -75,6 +77,7 @@ class Products extends Controller {
         $this->reports .= '<tr id="product_row_'.$report->id.'">';
         $this->reports .= "<td>".$report->barcode."</td>";
         $this->reports .= "<td>".$report->name."</td>";
+        $this->reports .= "<td>".$report->company."</td>";
         $this->reports .= "<td>".$report->vegan."</td>";
         $this->reports .= "<td>".$report->comment."</td>";
         $this->reports .= '<td>
