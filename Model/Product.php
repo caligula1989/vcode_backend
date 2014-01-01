@@ -14,8 +14,8 @@ class Product extends Model {
   protected $fields = array(
       "id" => "isEmpty|isNumeric",
       "barcode" => "isAlphaNumeric",
-      "company" => "isSafe",
-      "name" => "isSafe",
+      "company" => false,
+      "name" => false,
       "vegan" => "isNumeric",
       "isavApproved" => "isNumeric"
   );

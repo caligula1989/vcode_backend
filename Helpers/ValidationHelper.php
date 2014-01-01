@@ -11,7 +11,7 @@ class ValidationHelper {
         return is_numeric($value);
     }
 
-    public static function isSafe($value){
+    public static function isEscaped($value){
 		return $value == htmlspecialchars($value);
     }
     
